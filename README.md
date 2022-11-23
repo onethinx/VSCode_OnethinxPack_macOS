@@ -42,11 +42,12 @@
     ```
   - Restart your machine (or log-out and log-in) to reload the environment variables.
 ## 4. Check
-  - If Make and the compiler is correctly installed by typing the following into your terminal or terminal window of VS Code.
+  - If CMake, Make and the compiler is correctly installed by typing the following into your terminal or terminal window of VS Code.
     - `make -v`
+    - `cmake --version`
     - `arm-none-eabi-gcc -v`
-    - If you have not done this yet, download the [Hello World Project](https://github.com/onethinx/HelloWorld)
-      - You should be able to build and debug this project. If you experience issues, [your feedback is appreciated.](https://github.com/onethinx/VSCode_OnethinxPack_macOS/issues)
+  - If you have not done this yet, download the [Hello World Project](https://github.com/onethinx/HelloWorld)
+    - You should be able to build and debug this project. If you experience issues, [your feedback is appreciated.](https://github.com/onethinx/VSCode_OnethinxPack_macOS/issues)
 ## 5. Remind
   - After changing the device configuration (or project file structure) to use
     - Clean Reconfigure
