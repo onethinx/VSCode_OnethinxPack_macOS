@@ -80,3 +80,4 @@ memcalc() {
 }
 
 memcalc
+echo "done" > "$READELFFILE.txt"
