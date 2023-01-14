@@ -39,8 +39,7 @@
   - Restart your machine (or log-out and log-in) to reload the environment variables.
 ## 4. Check
   - If CMake, Make and the compiler is correctly installed by typing the following into your terminal or terminal window of VS Code.
-    - `make -v`
-    - `cmake --version`
+    - `meson -v`
     - `arm-none-eabi-gcc -v`
   - If you have not done this yet, download the [Hello World Project](https://github.com/onethinx/HelloWorld)
     - You should be able to build and debug this project. If you experience issues, [your feedback is appreciated.](https://github.com/onethinx/VSCode_OnethinxPack_macOS/issues)
